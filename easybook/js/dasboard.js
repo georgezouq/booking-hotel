@@ -24,9 +24,9 @@ function legendClickCallback(event) {
 var config = {
     type: 'line',
     data: {
-        labels: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+        labels: ['周日', '周一', '周二', '周三', '周四', '周五', '周六'],
         datasets: [{
-                label: 'Listings Views',
+                label: '民宿浏览量',
                 fill: false,
                 animation: false,
                 backgroundColor: "#F8BB11",
@@ -36,7 +36,7 @@ var config = {
                 data: [16, 12, 37, 33, 44, 98, 20]
             },
             {
-                label: 'Bookings',
+                label: '预定量',
                 fill: false,
                 animation: false,
                 backgroundColor: "#3AACED",
